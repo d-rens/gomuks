@@ -98,8 +98,8 @@ func NewRoomList(parent *MainView) *RoomList {
 		scrollOffset: 0,
 
 		mainTextColor:           tcell.ColorDefault,
-		selectedTextColor:       tcell.ColorWhite,
-		selectedBackgroundColor: tcell.ColorDarkGreen,
+		selectedTextColor:       tcell.ColorBlack,
+		selectedBackgroundColor: tcell.ColorTeal,
 	}
 	for _, tag := range list.tags {
 		list.items[tag] = NewTagRoomList(list, tag)

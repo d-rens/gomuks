@@ -133,7 +133,7 @@ func NewRoomView(parent *MainView, room *rooms.Room) *RoomView {
 
 	view.topic.
 		SetTextColor(tcell.ColorWhite).
-		SetBackgroundColor(tcell.ColorDarkGreen)
+		SetBackgroundColor(tcell.ColorTeal)
 
 	view.status.SetBackgroundColor(tcell.ColorDimGray)
 

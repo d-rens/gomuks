@@ -190,7 +190,7 @@ var colorNames = []string{
 func GetHashColorName(s string) string {
 	switch s {
 	case "-->":
-		return "green"
+		return "red"
 	case "<--":
 		return "red"
 	case "---":
